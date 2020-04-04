@@ -22,9 +22,6 @@ const Nav = props => {
         <Link to="/nominate" className={styles.link}>
           Nominate
         </Link>
-        <Link to="/jobs" className={styles.link}>
-          Jobs
-        </Link>
       </nav>
     </div>
   );
