@@ -5,16 +5,10 @@ module.exports = {
     {
       resolve: "gatsby-source-twitter-profiles",
       options: {
-        consumerKey: process.env.WWD_TWITTER_CONSUMER_KEY,
+        consumerKey: 0Qkk58Mxa10oIBuzN8pICam6Q,
         consumerSecret: process.env.WWD_TWITTER_CONSUMER_KEY,
-        bearerToken: process.env.WWD_TWITTER_BEARER_TOKEN,
-        twitterIdForFollowingList: "855501234924429312"
-      }
-    },
-    {
-      resolve: "gatsby-source-seeker",
-      options: {
-        key: process.env.WWD_SEEKER_KEY
+        bearerToken: AAAAAAAAAAAAAAAAAAAAABqoDQEAAAAAihq%2BYsaOSVBXEQ58UJ9syYkirbM%3DtnhvyBo762CdJcMYDwjurTUY9Xu7NDZn77GZ5xE6L9XfWM978S,
+        twitterIdForFollowingList: "734750340"
       }
     },
     {
@@ -31,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.WWD_GOOGLE_ANALYTICS_ID
+        trackingId: UA-43818380-2
       }
     },
     {
