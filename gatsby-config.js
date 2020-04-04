@@ -5,9 +5,9 @@ module.exports = {
     {
       resolve: "gatsby-source-twitter-profiles",
       options: {
-        consumerKey: 0Qkk58Mxa10oIBuzN8pICam6Q,
+        consumerKey: "0Qkk58Mxa10oIBuzN8pICam6Q",
         consumerSecret: process.env.WWD_TWITTER_CONSUMER_KEY,
-        bearerToken: AAAAAAAAAAAAAAAAAAAAABqoDQEAAAAAihq%2BYsaOSVBXEQ58UJ9syYkirbM%3DtnhvyBo762CdJcMYDwjurTUY9Xu7NDZn77GZ5xE6L9XfWM978S,
+        bearerToken: "AAAAAAAAAAAAAAAAAAAAABqoDQEAAAAAihq%2BYsaOSVBXEQ58UJ9syYkirbM%3DtnhvyBo762CdJcMYDwjurTUY9Xu7NDZn77GZ5xE6L9XfWM978S",
         twitterIdForFollowingList: "734750340"
       }
     },
